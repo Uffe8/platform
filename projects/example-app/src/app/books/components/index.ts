@@ -3,14 +3,14 @@ import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
-import { BookAuthorsComponent } from '@example-app/books/components/book-authors.component';
-import { BookDetailComponent } from '@example-app/books/components/book-detail.component';
-import { BookPreviewComponent } from '@example-app/books/components/book-preview.component';
-import { BookPreviewListComponent } from '@example-app/books/components/book-preview-list.component';
-import { BookSearchComponent } from '@example-app/books/components/book-search.component';
+import { BookAuthorsComponent } from '../components/book-authors.component';
+import { BookDetailComponent } from '../components/book-detail.component';
+import { BookPreviewComponent } from '../components/book-preview.component';
+import { BookPreviewListComponent } from '../components/book-preview-list.component';
+import { BookSearchComponent } from '../components/book-search.component';
 
-import { PipesModule } from '@example-app/shared/pipes';
-import { MaterialModule } from '@example-app/material';
+import { PipesModule } from '../../shared/pipes';
+import { MaterialModule } from '../../material';
 
 export const COMPONENTS = [
   BookAuthorsComponent,

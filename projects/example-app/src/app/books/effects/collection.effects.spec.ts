@@ -9,9 +9,9 @@ import {
   CollectionApiActions,
   SelectedBookPageActions,
   CollectionPageActions,
-} from '@example-app/books/actions';
-import { Book } from '@example-app/books/models/book';
-import { CollectionEffects } from '@example-app/books/effects/collection.effects';
+} from '../actions';
+import { Book } from '../models/book';
+import { CollectionEffects } from '../effects/collection.effects';
 
 describe('CollectionEffects', () => {
   let db: any;

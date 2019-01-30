@@ -3,10 +3,10 @@ import {
   createFeatureSelector,
   ActionReducerMap,
 } from '@ngrx/store';
-import * as fromRoot from '@example-app/reducers';
-import * as fromAuth from '@example-app/auth/reducers/auth.reducer';
-import * as fromLoginPage from '@example-app/auth/reducers/login-page.reducer';
-import { AuthApiActions } from '@example-app/auth/actions';
+import * as fromRoot from '../../reducers';
+import * as fromAuth from '../reducers/auth.reducer';
+import * as fromLoginPage from '../reducers/login-page.reducer';
+import { AuthApiActions } from '../actions';
 
 export interface AuthState {
   status: fromAuth.State;

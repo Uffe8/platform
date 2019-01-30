@@ -1,7 +1,7 @@
 import {
   BooksApiActions,
   FindBookPageActions,
-} from '@example-app/books/actions';
+} from '../actions';
 
 export interface State {
   ids: string[];

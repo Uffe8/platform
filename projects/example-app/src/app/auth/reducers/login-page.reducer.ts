@@ -1,4 +1,4 @@
-import { AuthApiActions, LoginPageActions } from '@example-app/auth/actions';
+import { AuthApiActions, LoginPageActions } from '../actions';
 
 export interface State {
   error: string | null;

@@ -5,12 +5,12 @@ import { Action } from '@ngrx/store';
 import { defer, Observable, of } from 'rxjs';
 import { catchError, map, mergeMap, switchMap, toArray } from 'rxjs/operators';
 
-import { Book } from '@example-app/books/models/book';
+import { Book } from '../models/book';
 import {
   SelectedBookPageActions,
   CollectionPageActions,
   CollectionApiActions,
-} from '@example-app/books/actions';
+} from '../actions';
 
 @Injectable()
 export class CollectionEffects {

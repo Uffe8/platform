@@ -1,6 +1,6 @@
 import {
   LayoutActions
-} from '@example-app/core/actions';
+} from '../../core/actions';
 
 export interface State {
   showSidenav: boolean;

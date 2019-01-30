@@ -1,11 +1,11 @@
 import { createEntityAdapter, EntityAdapter, EntityState } from '@ngrx/entity';
-import { Book } from '@example-app/books/models/book';
+import { Book } from '../models/book';
 import {
   BooksApiActions,
   BookActions,
   ViewBookPageActions,
   CollectionApiActions,
-} from '@example-app/books/actions';
+} from '../actions';
 
 /**
  * @ngrx/entity provides a predefined interface for handling

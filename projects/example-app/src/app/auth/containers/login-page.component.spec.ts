@@ -3,10 +3,10 @@ import { MatInputModule, MatCardModule } from '@angular/material';
 import { ReactiveFormsModule } from '@angular/forms';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { StoreModule, Store, combineReducers } from '@ngrx/store';
-import { LoginPageComponent } from '@example-app/auth/containers/login-page.component';
-import { LoginFormComponent } from '@example-app/auth/components/login-form.component';
-import * as fromAuth from '@example-app/auth/reducers';
-import { LoginPageActions } from '@example-app/auth/actions';
+import { LoginPageComponent } from './login-page.component';
+import { LoginFormComponent } from '../components/login-form.component';
+import * as fromAuth from '../reducers';
+import { LoginPageActions } from '../actions';
 
 describe('Login Page', () => {
   let fixture: ComponentFixture<LoginPageComponent>;

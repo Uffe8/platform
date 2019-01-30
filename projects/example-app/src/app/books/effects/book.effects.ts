@@ -11,12 +11,12 @@ import {
   takeUntil,
 } from 'rxjs/operators';
 
-import { GoogleBooksService } from '@example-app/core/services/google-books.service';
+import { GoogleBooksService } from '../../core/services/google-books.service';
 import {
   BooksApiActions,
   FindBookPageActions,
-} from '@example-app/books/actions';
-import { Book } from '@example-app/books/models/book';
+} from '../actions';
+import { Book } from '../models/book';
 
 /**
  * Effects offer a way to isolate and easily test side-effects within your

@@ -2,7 +2,7 @@ import {
   SelectedBookPageActions,
   CollectionPageActions,
   CollectionApiActions,
-} from '@example-app/books/actions';
+} from '../actions';
 
 export interface State {
   loaded: boolean;
